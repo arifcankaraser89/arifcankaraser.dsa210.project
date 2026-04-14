@@ -34,4 +34,30 @@ The project utilizes a structured time-series dataset spanning **2005 to 2026**,
 | Hypothesis | Null Hypothesis (H₀) | Statistical Test | Rationale |
 | :--- | :--- | :--- | :--- |
 | **H1: Watch vs. Inflation** | No significant correlation exists. | **Spearman’s Rank Correlation** | Robust against non-linear trends and market outliers (2021-2022). |
-| **
+| **H2: Market Sensitivity** | No difference in return distributions. | **Mann-Whitney U Test** | Non-parametric approach to compare segments without assuming normality. |
+
+---
+
+## 🏆 Findings
+* **🏛 Macroeconomic Resilience:** Rejection of H₀ in Hypothesis 1 confirms that high-end timepieces serve as an **effective hedge against currency devaluation**.
+* **📊 Market Segmentation:** Luxury assets function as **high-beta alternative investments**, showing higher sensitivity to global wealth indices than entry-level models.
+* **💡 Strategic Insight:** While providing inflation protection, luxury watch performance is intrinsically tied to **financial market liquidity**.
+
+---
+
+## ⚠️ Limitations
+* **Data Gaps:** Some model-year combinations contain estimated price records.
+* **Hidden Costs:** Analysis does not account for transaction fees, maintenance, or illiquidity premiums.
+* **Correlation vs. Causality:** Findings are observational; no direct causal claims are made.
+
+---
+
+## 📜 Academic Integrity Statement
+This project is an original work prepared for **DSA 210 – Introduction to Data Science** (Sabancı University, Spring 2025–2026).
+
+**AI Disclosure:** AI tools were used in a limited and assistive capacity for:
+* Structuring the README and documentation layout.
+* Debugging the EDA and hypothesis testing pipeline.
+* Refining the written expression of methodology and findings.
+
+*All analytical conclusions and data interpretations are the sole responsibility of the author.*
